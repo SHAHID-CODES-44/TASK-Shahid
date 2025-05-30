@@ -1,12 +1,33 @@
-# React + Vite
+# User Directory React App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive **User Directory** built with React and Vite that fetches random users from a public API and displays them in animated user cards with interactive search, filter, and detail modal features.
 
-Currently, two official plugins are available:
+---
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## About The Project
 
-## Expanding the ESLint configuration
+This project is a user directory app designed and developed within **4 hours**.  
+It fetches 20 random users from the public API [randomuser.me](https://randomuser.me/) and displays them with a clean UI and smooth animations.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Key Features:
+
+- **Fetch Data:** Retrieves 20 users asynchronously, showing loading states and handling errors gracefully.
+- **User Cards:** Displays each user's name, country, email, and profile picture in a responsive card layout.
+- **Interactive Search & Filter:**  
+  - Search users by name (real-time filtering).  
+  - Filter users by gender via a dropdown menu.
+- **Detail Modal:**  
+  - Clicking a user card opens a modal with full profile image, phone number, date of birth.  
+  - Modal closes when clicking outside the content area.  
+- **Animations:**  
+  - Fade-in animation for user cards on load.  
+  - Smooth open/close animations for the modal.
+
+---
+
+1. Clone the repo:
+
+   ```bash
+   git clone https://github.com/SHAHID-CODES-44/TASK-Shahid.git
+   cd TASK-Shahid
